@@ -11,16 +11,15 @@ class AuthService {
     User user = userCredential.user; //
     return user;
   }
-
+//
   //Error signing in
   Future signInWitGoogle() async {
     try {
       final GoogleSignIn _googleSignIn = GoogleSignIn();
       final GoogleSignInAccount googleSignInAccount =
           await _googleSignIn.signIn();
-      print('v');
       GoogleSignInAuthentication googleAuth =
-          await googleSignInAccount.authentication; //-Xmx1536M
+          await googleSignInAccount.authentication;
       AuthCredential authCredential = GoogleAuthProvider.credential(
           accessToken: googleAuth.accessToken, idToken: googleAuth.idToken);
       UserCredential authResult =

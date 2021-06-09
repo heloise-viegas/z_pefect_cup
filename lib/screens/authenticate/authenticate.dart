@@ -9,6 +9,7 @@ class Authenticate extends StatefulWidget {
   _AuthenticateState createState() => _AuthenticateState();
 }
 
+//
 class _AuthenticateState extends State<Authenticate> {
   @override
   Widget build(BuildContext context) {
@@ -16,7 +17,6 @@ class _AuthenticateState extends State<Authenticate> {
       body: GestureDetector(
         onTap: () async {
           AuthService authService = AuthService();
-
           User user = await authService.signInWitGoogle();
           print(user.displayName);
         },
