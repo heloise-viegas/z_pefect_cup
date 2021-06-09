@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:z_pefect_cup/services/auth.dart';
 
 class Authenticate extends StatefulWidget {
-  const Authenticate({Key? key}) : super(key: key);
+  const Authenticate({Key key}) : super(key: key);
 
   @override
   _AuthenticateState createState() => _AuthenticateState();
