@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "740727444563",
+    "project_id": "perfect-cup-bf561",
+    "storage_bucket": "perfect-cup-bf561.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740727444563:android:c01f169e1c9749b3f8e2a6",
+        "android_client_info": {
+          "package_name": "com.example.z_pefect_cup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740727444563-4idtfmgpa4a7ocskbodo10tnj0talvl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgIIQwmbMnzQ7rPXea-bNir1h2FTwZeC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740727444563-4idtfmgpa4a7ocskbodo10tnj0talvl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
